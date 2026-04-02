@@ -1,39 +1,41 @@
-# Kaveri University Fees Management System (Local • Free • Windows)
+# 🎓 Smart College Fees Management ERP System
 
-## What this is
-A real working Fees + Receipt system:
-- Permanent local database (SQLite)
-- Students CRUD
-- Fee heads and due calculation
-- Payments with fee-purpose tick boxes
-- Auto receipt numbering: KU/2025-26/RCPT/0001...
-- Printable receipt with Kaveri University logo
-- Manual DB backup button
+## 📌 Project Overview
+A web-based ERP system built using Flask to automate student fee management, payments, and reporting.
 
-## Requirements
-- Python 3.10+ (Windows)
-- pip
+## 🚀 Features
+- Student Management (CRUD)
+- Fee Tracking & Due Calculation
+- Payment System with Receipts
+- Admin Dashboard
+- Reports & Analytics
 
-## Install
-Open CMD in this folder:
-```bash
-pip install flask
-```
+## 🛠 Tech Stack
+- Python (Flask)
+- HTML, CSS, Bootstrap
+- SQLite
 
-## Run
-```bash
+## ⚙️ Setup Instructions
+
+1. Clone the repo:
+git clone https://github.com/pabbojilokeshchary-cloud/college-erp-system.git
+
+2. Go to folder:
+cd college-erp-system
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Run:
 python app.py
-```
-Open in browser:
-- http://127.0.0.1:5000
 
-## LAN access (later)
-Run is already set to host 0.0.0.0. Other PCs can open:
-- http://<YOUR_LAPTOP_IP>:5000
+5. Open:
+http://127.0.0.1:5000/
 
-## Database file
-- database.db (in same folder)
+## 📂 Project Details
+This system digitizes college fee management, reducing manual work and improving efficiency.
 
-## Backups
-Click "Backup DB" on Payments page.
-Backup DB copies will be in /backup
+## 📞 Contact
+pabboji lokesh chary  
+📧 pabboji lokesh chary 
+📱 8309489707
